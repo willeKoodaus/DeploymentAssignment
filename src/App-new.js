@@ -61,7 +61,7 @@ const App = () => {
 }
 
 export const Counter = ({ counter }) => (
-  <div>
+  <div className="counter">
     <p>{counter}</p>
   </div>
 )
