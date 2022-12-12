@@ -18,6 +18,7 @@ const initialData = {
   error: null,
 }
 
+
 const App = () => {
   const [counter, setCounter] = React.useState(0)
   const [data, dispatch] = React.useReducer(dataReducer, initialData)
